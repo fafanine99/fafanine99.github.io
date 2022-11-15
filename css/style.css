@@ -1,0 +1,124 @@
+header {
+    position: relative;
+}
+
+.upheader {
+    padding: 15px 0;
+    background: #212121;
+}
+
+.upheader .header_link {
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.subheader {
+    position: absolute;
+    width: 100%;
+    padding: 20px 0 15px;
+    background-color: rgba(0, 0, 0, 50%);
+}
+
+.subheader .sub_text {
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+.subheader .call {
+    text-align: right;
+    font-size: 13px;
+}
+
+.subheader .number {
+    display: block;
+    text-decoration: none;
+    text-align: right;
+    line-height: 30px;
+    font-size: 25px;
+}
+
+.subheader .sub_btn {
+    color: white;
+    font-family: sans-serif;
+    background-color: rgb(71, 201, 241);
+}
+
+.about {
+    padding: 152px 0;
+    min-height: 800px;
+    background: url('../img/uber_bg.png') center center/cover no-repeat;
+}
+
+.about h1 {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.about h2 {
+    line-height: 20px;
+}
+
+.about .about_text {
+    margin-top: 20px;
+    padding: 0 78px;
+}
+
+.about .about_btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 115px;
+    padding: 13px 35px;
+    color: white;
+    font-family: sans-serif;
+    background-color: rgb(71, 201, 241);
+}
+
+.work {
+    padding: 40px 0;
+}
+
+.work .ic {
+    display: block;
+    margin: 0 auto;
+    background-color: black;
+    width: 150px;
+}
+
+.work h2 {
+    margin-top: 30px;
+}
+
+.work .work_flex {
+    display: flex;
+    margin-top: 30px;
+    padding: 0 50px;
+}
+
+.work .elips {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    min-width: 85px;
+    height: 85px;
+    background-color: rgb(0, 174, 201);
+    border-radius: 50%;
+    border: 3px solid rgb(0, 174, 201);
+}
+
+.work .elips .work_icon {
+    max-width: 40px;
+}
+
+.work .work_text {
+    padding: 0 50px 0 30px;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.work .work_text span {
+    color: rgb(0, 174, 201);
+    font-size: 18px;
+    line-height: 23px;
+}
